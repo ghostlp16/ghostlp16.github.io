@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – ghostlp16</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="legal">
+    <a class="back" href="index.html">← Zurück</a>
+    <h1>Kontakt</h1>
+    <div class="box">
+      <p>Schreib mir direkt über dieses Formular – die Nachricht kommt sofort bei mir an. Alternativ per E-Mail an <a href="mailto:business@ghostlp.de">business@ghostlp.de</a>.</p>
+      <form class="contact" action="https://formsubmit.co/business@ghostlp.de" method="POST">
+        <input type="hidden" name="_subject" value="Neue Nachricht über ghostlp.de">
+        <input type="hidden" name="_next" value="https://ghostlp.de/danke.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+
+        <label>Name<input type="text" name="name" required></label>
+        <label>E-Mail<input type="email" name="email" required></label>
+        <label>Nachricht<textarea name="nachricht" rows="6" required></textarea></label>
+        <label class="check"><input type="checkbox" required> Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben zur Beantwortung meiner Anfrage einverstanden.</label>
+        <button type="submit">Nachricht senden</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <a href="impressum.html">Impressum</a>·<a href="datenschutz.html">Datenschutz</a>
+  </footer>
+</body>
+</html>

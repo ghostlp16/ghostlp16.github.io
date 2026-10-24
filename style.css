@@ -50,5 +50,21 @@ h1 { margin: 0; font-size: 2rem; letter-spacing: .5px; }
 .legal .box { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px 20px; }
 .back { display: inline-block; margin-bottom: 20px; text-decoration: none; }
 
+.contact { display: grid; gap: 14px; margin-top: 16px; }
+.contact label { display: grid; gap: 6px; font-weight: 600; }
+.contact input, .contact textarea {
+  font: inherit; color: var(--text); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
+}
+.contact input:focus, .contact textarea:focus { outline: none; border-color: var(--accent); }
+.contact .check { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: .9rem; color: var(--muted); }
+.contact .check input { margin-top: 4px; }
+.contact button {
+  font: inherit; font-weight: 700; cursor: pointer; padding: 12px; border: 0; border-radius: 10px;
+  background: var(--accent); color: #06140b;
+}
+.contact button:hover { filter: brightness(1.1); }
+.contact .hp { display: none; }
+
 footer { text-align: center; padding: 20px 16px 32px; color: var(--muted); font-size: .9rem; }
 footer a { color: var(--muted); margin: 0 8px; }
